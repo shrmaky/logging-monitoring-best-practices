@@ -3,14 +3,14 @@
 This document is the baseline for setting up the strategy for Logging & Monitoring.
 
 -Log Management & Monitoring
-  - What to Log
+  - [What to Log](#what-to-log)
   - Basics
   - Events to Log:
-- How to Log
+- [How to Log](#how-to-log)
   - Actionables
   - Log Management
   - Security Aspects In Details
-- Roles & Responsibilties
+- [Roles & Responsibilties](#roles--responsibilties)
   - Log types
   - What to never log
 - Next ToDo’s
