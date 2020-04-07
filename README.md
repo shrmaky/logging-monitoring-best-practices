@@ -21,35 +21,35 @@ This document is the baseline for setting up the strategy for Logging & Monitori
 
 ### Basics
 - Only log what Legislation allowed
- - Example GDPR
+   - Example GDPR
 - Maintaining Confidentiality | Only Public Records
- - Password & Encryption Keys
- - Payment Details
- - Detailed System Information etc
- - Infromation exposure through Error Messages
+   - Password & Encryption Keys
+   - Payment Details
+   - Detailed System Information etc
+   - Infromation exposure through Error Messages
 - Sufficient Logging | NOT Logiing Everything
- - CWE-779 Logging Excessive Data
+   - CWE-779 Logging Excessive Data
 - Optimization Strategy: Right set of Training & Utilization
- - Not Determiniing what to monitor & how
- - Right Training & Documentation
- - Putting right practice for Alerting
+   - Not Determiniing what to monitor & how
+   - Right Training & Documentation
+   - Putting right practice for Alerting
 
 ### Events to Log:
 - Authentication Events
- - All Success & Failure
- - Building a security policy
- - Acesss control violations
-  - Incorrect Logins
-  - Policy for Internal Employees
-  - User Authentication(Failed/Reset/Successful) for all services including k8, Applications, Internal Systems
+   - All Success & Failure
+   - Building a security policy
+   - Acesss control violations
+    - Incorrect Logins
+    - Policy for Internal Employees
+    - User Authentication(Failed/Reset/Successful) for all services including k8, Applications, Internal Systems
 - Authorization Events
- - Failure of Tokens & Internal Access Violation
+   - Failure of Tokens & Internal Access Violation
 - Application Errors
- - All Application Errors
- - Stabrtup & Shutdown Events
- - Configuration Changes
- - Application State Information
- - Input & Output validation(maintaining signal to noise ratio)
+   - All Application Errors
+   - Stabrtup & Shutdown Events
+   - Configuration Changes
+   - Application State Information
+   - Input & Output validation(maintaining signal to noise ratio)
 
 
 
@@ -61,42 +61,42 @@ This document is the baseline for setting up the strategy for Logging & Monitori
   - Not to log locally, but if its required, log in separate partition & enable access control.
   - Access Control
  - Logging Remotely or Centralized Log-Server
-   - Full Encryption
-   - Access Control Mechanism
-   - Integrity Checks for Log Files
-   - Fail-over system
-   - Setting up regular backups
-   - Adding alerting
+     - Full Encryption
+     - Access Control Mechanism
+     - Integrity Checks for Log Files
+     - Fail-over system
+     - Setting up regular backups
+     - Adding alerting
 - Format of log files
- - Metadata requirements
-  - what has happened
-  - when it happened
-   - [timestamp with Timezone](https://medium.com/easyread/understanding-about-rfc-3339-for-datetime-formatting-in-software-engineering-940aa5d5f68a)
-    - source
-    - destination
-    - Synchronize Time Sources
-  - where it happened
-   - source address
-   - originating source(ipv4/ipv6)
-  - who is responsible for the action
-   - Logged on/Attmeping User
-   - Unique identifier
+   - Metadata requirements
+    - what has happened
+    - when it happened
+       - [timestamp with Timezone](https://medium.com/easyread/understanding-about-rfc-3339-for-datetime-formatting-in-software-engineering-940aa5d5f68a)
+        - source
+        - destination
+        - Synchronize Time Sources
+    - where it happened
+       - source address
+       - originating source(ipv4/ipv6)
+    - who is responsible for the action
+       - Logged on/Attmeping User
+       - Unique identifier
  - [Standard Logging Format](https://tools.ietf.org/html/rfc5424)
   - Timestamp
   - Encoding - UTF8
   - Severity Levels(Standards)
-   - 0 - Emergency - System crash
-   - 1 - Alert - action must be taken
-   - 2 - Critical - critical condition such as load
-   - 3 - error - error conditions
-   - 4 - warning
-   - 5 - Notice
-   - 6 - Infromational
-   - 7 - Debug
+     - 0 - Emergency - System crash
+     - 1 - Alert - action must be taken
+     - 2 - Critical - critical condition such as load
+     - 3 - error - error conditions
+     - 4 - warning
+     - 5 - Notice
+     - 6 - Infromational
+     - 7 - Debug
 - Handling Personal Data
- - Encrypting Personal Data
- - Pseudonymization(Privacy Enhancing Techniques)
- - Consulting Legal
+   - Encrypting Personal Data
+   - Pseudonymization(Privacy Enhancing Techniques)
+   - Consulting Legal
 
 ### Log Management
 - Log Aggregation
