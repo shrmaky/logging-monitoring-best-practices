@@ -100,18 +100,18 @@ This document is the baseline for setting up the strategy for Logging & Monitori
 
 ### Log Management
 - Log Aggregation
- - Consolidate Duplicate Events
- - Add Structure to the Docs
- - Remove sensitive Data through filters
- - Pseudonymization
- - Security
-  - Input validation(XSS also possible in log files)
-  - Encoding(Safeguard againist injection attacks)
-  - Filtering
+   - Consolidate Duplicate Events
+   - Add Structure to the Docs
+   - Remove sensitive Data through filters
+   - Pseudonymization
+   - Security
+    - Input validation(XSS also possible in log files)
+    - Encoding(Safeguard againist injection attacks)
+    - Filtering
 - Log Analyzing
- - Baselining
- - Analoly Detection
- - Attack Signatures
+   - Baselining
+   - Analoly Detection
+   - Attack Signatures
 - Log Archiving
 
 
@@ -194,20 +194,20 @@ This document is the baseline for setting up the strategy for Logging & Monitori
 
 ### Select Logging Framework for Frontend/Backend/Infra erc 
 - Frontend
- - https://www.npmjs.com/package/universal-react-logger
- - https://www.npmjs.com/package/winston-transport-browserconsole
+   - https://www.npmjs.com/package/universal-react-logger
+   - https://www.npmjs.com/package/winston-transport-browserconsole
 - Backend 
- - Preferred Logging Library - Winston - https://github.com/winstonjs/winston
- - https://github.com/winstonjs/winston-daily-rotate-file
+   - Preferred Logging Library - Winston - https://github.com/winstonjs/winston
+   - https://github.com/winstonjs/winston-daily-rotate-file
 
 
 ## References
 - https://www.datadoghq.com/blog/monitoring-mean-stack-applications-with-datadog/
 - Database Logs
- - https://docs.mongodb.com/manual/reference/command/serverStatus/#server-status-locks
- - https://docs.mongodb.com/manual/reference/command/dbStats/#dbcmd.dbStats
+   - https://docs.mongodb.com/manual/reference/command/serverStatus/#server-status-locks
+   - https://docs.mongodb.com/manual/reference/command/dbStats/#dbcmd.dbStats
 - K8 Logging
- - https://itnext.io/logging-best-practices-for-kubernetes-using-elasticsearch-fluent-bit-and-kibana-be9b7398dfee
+   - https://itnext.io/logging-best-practices-for-kubernetes-using-elasticsearch-fluent-bit-and-kibana-be9b7398dfee
 - https://github.com/pimterry/loglevel
 - https://medium.com/@davidmcintosh/winston-a-better-way-to-log-793ac19044c5
 - https://stackoverflow.com/questions/5817738/how-to-use-log-levels-in-java
@@ -218,11 +218,11 @@ This document is the baseline for setting up the strategy for Logging & Monitori
 - https://medium.com/easyread/understanding-about-rfc-3339-for-datetime-formatting-in-software-engineering-940aa5d5f68a
 - https://webilicious.xyz/utilizing-winston-to-log-node-js-applications/
 - Security
- - https://attack.mitre.org/
- - https://cwe.mitre.org/
- - https://cwe.mitre.org/data/definitions/778.html
- - https://cwe.mitre.org/data/definitions/223.html
- - https://cwe.mitre.org/data/definitions/209.html
- - https://cwe.mitre.org/data/definitions/779.html
+   - https://attack.mitre.org/
+   - https://cwe.mitre.org/
+   - https://cwe.mitre.org/data/definitions/778.html
+   - https://cwe.mitre.org/data/definitions/223.html
+   - https://cwe.mitre.org/data/definitions/209.html
+   - https://cwe.mitre.org/data/definitions/779.html
 
 
