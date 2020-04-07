@@ -125,28 +125,28 @@ This document is the baseline for setting up the strategy for Logging & Monitori
 
 ## Roles & Responsibilties
 - IT Leadership
- - Asssigning responsibilities
- - Tools & Trainings
- - Incident response
+   - Asssigning responsibilities
+   - Tools & Trainings
+   - Incident response
 - Software/DevOps Lead
- - Defining what to log & monitor. (Generally this happens in after Planning phase)
- - Clear Documentation
- - Common Format of log files
- - Optimization or tweaking monitoring during operational phase
- - Maintaining the policy
- - Action on Log
- - Adding Logging/Monitoring to release notes & continuously monitoring behaviour in production
+   - Defining what to log & monitor. (Generally this happens in after Planning phase)
+   - Clear Documentation
+   - Common Format of log files
+   - Optimization or tweaking monitoring during operational phase
+   - Maintaining the policy
+   - Action on Log
+   - Adding Logging/Monitoring to release notes & continuously monitoring behaviour in production
 - DevOps
- - Defining Response strategy
- - Setting up Infra & Enabling
- - Common Format of log files
- - Continous Monitoring & Alerting
- - Verifying Pattern such as continuous login attempts
- - Defining Response strategy
- - Reporting policy violations
- - Generating regular reports
+   - Defining Response strategy
+   - Setting up Infra & Enabling
+   - Common Format of log files
+   - Continous Monitoring & Alerting
+   - Verifying Pattern such as continuous login attempts
+   - Defining Response strategy
+   - Reporting policy violations
+   - Generating regular reports
 - Legal Department
- - Validating the information logged & stored in database
+   - Validating the information logged & stored in database
 
 ## Log types
 - Application logs[http request/response log, application level error
