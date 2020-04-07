@@ -2,8 +2,8 @@
 
 This document is the baseline for setting up the strategy for Logging & Monitoring.
 
--Log Management & Monitoring
-  - [What to Log](#what-to-log)
+## Table of Content
+- [What to Log](#what-to-log)
   - Basics
   - Events to Log:
 - [How to Log](#how-to-log)
