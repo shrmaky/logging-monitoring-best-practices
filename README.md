@@ -2,20 +2,20 @@
 
 This document is the baseline for setting up the strategy for Logging & Monitoring.
 
-*Log Management & Monitoring
-  ** What to Log
-  ** Basics
-  ** Events to Log:
-* How to Log
-  ** Actionables
-  ** Log Management
-  ** Security Aspects In Details
-* Roles & Responsibilties
-  ** Log types
-  ** What to never log
-* Next ToDo’s
-  ** Select Logging Framework for Frontend/Backend/Infra erc
-  ** References
+-Log Management & Monitoring
+  - What to Log
+  - Basics
+  - Events to Log:
+- How to Log
+  - Actionables
+  - Log Management
+  - Security Aspects In Details
+- Roles & Responsibilties
+  - Log types
+  - What to never log
+- Next ToDo’s
+  - Select Logging Framework for Frontend/Backend/Infra erc
+  - References
 
 ## What to Log
 
